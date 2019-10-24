@@ -1,6 +1,6 @@
 import React from 'react'
-// import logo from './logo.svg'
 import Box from './components/Box'
+import ThemeToggle from './components/ThemeToggle'
 import ThemeContextProvider from './contexts/ThemeContext'
 import './App.css'
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <ThemeContextProvider>
         <Box />
+        <ThemeToggle />
       </ThemeContextProvider>
     </div>
   )
