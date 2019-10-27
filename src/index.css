@@ -29,3 +29,14 @@ code {
   border: none;
   cursor: pointer;
 }
+
+.auth {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 75px;
+  border: 1px solid #ddd;
+}
+
+.auth:hover {
+  background-color: #ccc;
+}

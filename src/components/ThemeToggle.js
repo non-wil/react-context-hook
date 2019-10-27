@@ -4,10 +4,10 @@ import { ThemeContext } from '../contexts/ThemeContext'
 export default class ThemeToggle extends Component {
   static contextType = ThemeContext
   render() {
-    const { toggleTheme } = this.context
+    const { isLightTheme, toggleTheme } = this.context
     return (
       <button className="button" onClick={toggleTheme}>
-        Toggle
+        {isLightTheme ? 'Turn off' : 'Turn on'}
       </button>
     )
   }
